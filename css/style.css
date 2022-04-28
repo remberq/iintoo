@@ -34,7 +34,6 @@
 body {
     font-family: 'Barlow', sans-serif;
     color: #2A4A5C;
-
 }
 
 img {
@@ -288,3 +287,44 @@ img {
     background-color: #022a41;
 }
 
+/* Media */
+
+@media only screen and (max-height: 840px){
+    .hero__description {
+        margin: 10px 0 0 0;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .hero__heading {
+        margin: 0;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .hero__register-btn {
+        margin-top: 3vh;
+    }
+
+    .hero__or-section {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    .hero__form-subject {
+        margin-top: 2vh;
+    }
+
+    .hero__form-radio {
+        margin-top: 3vh;
+    }
+
+    .hero__form-text {
+        max-width: 60%;
+        margin-top: 2vh;
+        margin-bottom: 3vh;
+        box-shadow: 0 0 20px #ececec;
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
